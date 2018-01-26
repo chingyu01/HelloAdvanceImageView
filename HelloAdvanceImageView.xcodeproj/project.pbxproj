@@ -12,6 +12,7 @@
 		04D7B409201ACF9300BF1A2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D7B407201ACF9300BF1A2E /* Main.storyboard */; };
 		04D7B40B201ACF9500BF1A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D7B40A201ACF9500BF1A2E /* Assets.xcassets */; };
 		04D7B40E201ACF9500BF1A2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D7B40C201ACF9500BF1A2E /* LaunchScreen.storyboard */; };
+		04D7B416201AD05800BF1A2E /* UIImageView+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D7B415201AD05800BF1A2E /* UIImageView+Download.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		04D7B40A201ACF9500BF1A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04D7B40D201ACF9500BF1A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04D7B40F201ACF9500BF1A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D7B415201AD05800BF1A2E /* UIImageView+Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Download.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				04D7B403201ACF9300BF1A2E /* AppDelegate.swift */,
 				04D7B405201ACF9300BF1A2E /* ViewController.swift */,
+				04D7B415201AD05800BF1A2E /* UIImageView+Download.swift */,
 				04D7B407201ACF9300BF1A2E /* Main.storyboard */,
 				04D7B40A201ACF9500BF1A2E /* Assets.xcassets */,
 				04D7B40C201ACF9500BF1A2E /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D7B416201AD05800BF1A2E /* UIImageView+Download.swift in Sources */,
 				04D7B406201ACF9300BF1A2E /* ViewController.swift in Sources */,
 				04D7B404201ACF9300BF1A2E /* AppDelegate.swift in Sources */,
 			);
@@ -286,7 +290,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.freya.HelloAdvanceImageView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freya;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,7 +308,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.freya.HelloAdvanceImageView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freya;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
